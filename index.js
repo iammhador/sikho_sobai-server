@@ -17,6 +17,13 @@ app.get("/courses", (req, res) => {
   res.send(courses);
 });
 
+//# Get Single Course By Using ID :
+app.get("/courses/:id", (req, res) => {
+  const courseId = req.params.id;
+  const singleCourse = courses.find((course) => course.id === courseId);
+  res.send(singleCourse);
+});
+
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
