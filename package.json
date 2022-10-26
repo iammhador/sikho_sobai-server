@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "name": "sikho_sobai",
+  "version": "1.0.0",
+  "description": "Sikho Sobai Is A Online Programming Education Learning Platform. You Can Learn Multiple Languages From Us. Keep Connecting With Us.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehedy Hasan Ador",
+  "license": "ISC"
+}
