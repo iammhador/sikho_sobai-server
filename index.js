@@ -24,6 +24,11 @@ app.get("/courses/:id", (req, res) => {
   res.send(singleCourse);
 });
 
+//# Get All Category :
+app.get("/category", (req, res) => {
+  res.send(categories);
+});
+
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
