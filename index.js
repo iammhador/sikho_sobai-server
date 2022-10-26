@@ -12,6 +12,11 @@ app.get("/", (req, res) => {
   res.send("Hello Beautiful People");
 });
 
+//# Get All Courses :
+app.get("/courses", (req, res) => {
+  res.send(courses);
+});
+
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
