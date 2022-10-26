@@ -29,6 +29,15 @@ app.get("/category", (req, res) => {
   res.send(categories);
 });
 
+//# Get Category All Courses:
+app.get("/category/:id", (req, res) => {
+  const categoryId = req.params.id;
+  const selectCategory = courses.filter(
+    (singleCourse) => singleCourse.category_id === categoryId
+  );
+  res.send(selectCategory);
+});
+
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
