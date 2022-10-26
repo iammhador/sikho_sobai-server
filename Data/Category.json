@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01",
+    "name": "Web Development",
+    "image": "https://i.ibb.co/bvtLJwq/pexels-olia-danilevich-4974915.jpg"
+  },
+  {
+    "id": "02",
+    "name": "App Development",
+    "image": "https://i.ibb.co/NrL5ZmD/pexels-tima-miroshnichenko-5198239.jpg"
+  },
+  {
+    "id": "03",
+    "name": "Game Development",
+    "image": "https://i.ibb.co/qNCgTF8/pexels-andrea-piacquadio-927022.jpg"
+  },
+  {
+    "id": "04",
+    "name": "Graphics Design",
+    "image": "https://i.ibb.co/m8zyWLk/pexels-fauxels-3184339.jpg"
+  },
+  {
+    "id": "05",
+    "name": "Digital Marketing",
+    "image": "https://i.ibb.co/1mqPJpM/pexels-helena-lopes-1015568.jpg"
+  },
+  {
+    "id": "06",
+    "name": "Video Editing",
+    "image": "https://i.ibb.co/XFqNBs5/pexels-buro-millennial-1438081.jpg"
+  }
+]
